@@ -12,6 +12,6 @@ def query_as_df(query = '', client=client):
     df = pd.DataFrame(query, columns = col_names)
     return df
 
-def insert_df_to_clickhouse_table(dataframe, table_name, schema_name, client):
+def insert_df_to_clickhouse_table(dataframe, table_name, client):
     """Inserts dataframe into clickhouse table"""
-    client.insert_dataframe(f"INSERT INTO {schema_name}.{table_name} VALUES", dataframe)
+    client.insert_dataframe(f"INSERT INTO {table_name} VALUES", dataframe)
