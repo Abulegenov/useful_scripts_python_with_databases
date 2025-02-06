@@ -1,4 +1,4 @@
-# useful_scripts_python_with_databases
+# Handy scripts
 These are listed some of my every-day scripts I was using to complete certain tasks.
 !Note that some of them might be outdated as they were written some years ago, nevertheless - they are useful :)
 
